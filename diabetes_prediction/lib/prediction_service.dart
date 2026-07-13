@@ -29,7 +29,7 @@ class PredictionService {
   /// - Android emulator: use http://10.0.2.2:8000
   /// - iOS simulator / desktop / web (Chrome) on the same machine: http://127.0.0.1:8000 or http://localhost:8000
   /// - Physical device: use your computer's LAN IP, e.g. http://192.168.1.50:8000
-  static const String baseUrl = 'http://localhost:8000';
+  static const String baseUrl = 'https://diabetespredictioncode-production.up.railway.app';
 
   Future<PredictionResult> predict({
     required double pregnancies,

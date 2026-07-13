@@ -11,11 +11,21 @@ dependencies:
     sdk: flutter
   http: ^1.2.0
   cupertino_icons: ^1.0.6
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.14.4"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/applogo_dp.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
